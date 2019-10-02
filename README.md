@@ -18,6 +18,7 @@ Removes the warning that Steam is offline that pops up when launching RimWorld w
 
 ## Requirements
 Without Steam uses [Harmony](https://github.com/pardeike/Harmony) which is included with the mod. Without Steam is not load order dependant.
+
 ---
 
 #### Powered By:
