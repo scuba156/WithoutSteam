@@ -1,7 +1,7 @@
 ﻿using Harmony;
 using Verse;
 
-namespace WithoutSteamPatches.Dialog_MessageBox_Patches {
+namespace WithoutSteam.Patches.Dialog_MessageBox_Patches {
 
     [HarmonyPatch]
     [HarmonyPatch(typeof(Dialog_MessageBox))]
