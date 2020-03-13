@@ -1,5 +1,4 @@
-﻿using Harmony;
-using System.Reflection;
+﻿using HarmonyLib;
 using Verse;
 
 namespace WithoutSteam {
@@ -8,8 +7,8 @@ namespace WithoutSteam {
     public class Main : Mod {
 
         public Main(ModContentPack content) : base(content) {
-            var harmony = HarmonyInstance.Create("com.scuba156.WithoutSteam");
-            harmony.PatchAll(Assembly.GetExecutingAssembly());
+            var harmony = new Harmony("com.scuba156.WithoutSteam");
+            harmony.PatchAll();
         }
     }
 }
